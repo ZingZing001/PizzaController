@@ -23,8 +23,6 @@ public class PizzaController : ControllerBase
             return NotFound();
         
         return pizza;
-
-
     }
 
     // POST action
