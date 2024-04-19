@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PizzaController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b1083016eb11eb0797c936a4bde74a33b4e8103")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bca71634a2dc39853ba03dd844f529cf005ecdee")]
 [assembly: System.Reflection.AssemblyProductAttribute("PizzaController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PizzaController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
