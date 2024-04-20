@@ -23,9 +23,22 @@ Content-Type: application/json
 
 PUT {{PizzaController_HostAddress}}/pizza/3
 Content-Type: application/json
+
 {
     "id": 3,
     "name": "Hawaiian",
     "isGlutenFree": false
-
 }
+
+###
+GET {{PizzaController_HostAddress}}/pizza/5
+Accept: application/json
+
+###
+DELETE {{PizzaController_HostAddress}}/pizza/5
+
+###
+GET {{PizzaController_HostAddress}}/pizza/
+Accept: application/json
+
+###
