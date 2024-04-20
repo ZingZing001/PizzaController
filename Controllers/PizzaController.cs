@@ -53,7 +53,7 @@ public class PizzaController : ControllerBase
 
     // Deletes a pizza from the existing WEB API through its Id
     // DELETE action
-    [HttpPut("{id}")]
+    [HttpDelete("{id}")]
     public IActionResult Delete(int id){
         var pizza = PizzaService.Get(id);
 

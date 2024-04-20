@@ -11,3 +11,12 @@ GET {{PizzaController_HostAddress}}/pizza/1
 Accept: application/json
 
 ###
+POST {{PizzaController_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
